@@ -56,7 +56,6 @@ class Pokemon {
             $attackPoints *= $this->attackPokemon->getSpecialAttack();
         }
 
-        // Apply type effectiveness
         $multiplier = $this->getTypeEffectiveness($p);
         $finalDamage = $attackPoints * $multiplier;
 
@@ -85,7 +84,7 @@ class Pokemon {
             if ($defenderType === 'Plante' || $defenderType === 'Feu') return 0.5;
         }
 
-        return 1; // Normal damage
+        return 1; 
     }
     public function whoAmI() {
         return "Name: {$this->name}, HP: {$this->hp}, Type: {$this->type}, " .
