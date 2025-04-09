@@ -1,0 +1,16 @@
+.rounded-circle {
+    border-radius: 50%;
+}
+.bg-primary{
+    background-color: #001f3f;
+    border-color: #001f3f;
+    color: #fff;
+}
+.btn-primary{
+    background-color: #001f3f;
+    border-color: #001f3f;
+}
+.navbar{
+    background-color: #001f3f;
+    border-color: #001f3f;
+}
